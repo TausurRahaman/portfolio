@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className='col-span-3 md:order-1 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8'>
               <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
-              <Image src={profilePic} alt="Tausur"
+              <Image src={profilePicture} alt="Tausur"
                 sizes='(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw'
